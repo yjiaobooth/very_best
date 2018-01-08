@@ -21,7 +21,7 @@
         <td><%= favorite.user.email %></td>
         <td><%= favorite.dishes.name %></td>
         <td><%= favorite.venue.name %></td>
-        <td><%= favorite.cuisine_id %></td>
+        <td><%= favorite.cuisine.created_at %></td>
         <td>
           <a href="/favorites/<%= favorite.id %>" class="btn btn-primary">Show</a>
           <a href="/favorites/<%= favorite.id %>/edit" class="btn btn-warning">Edit</a>
